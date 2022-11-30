@@ -1,0 +1,408 @@
+body {
+    background-image: url(img/banner-principal.jpg);
+    background-size: cover;
+}
+
+.home-banner {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.top {
+    background: rgba(0, 0, 0, 0.199);
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title01 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.title02 {
+    color: rgb(255, 210, 8);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.play {
+    padding-top: 120px;
+}
+
+.plai {
+    width: 200px;
+    height: 200px;
+}
+
+.plai:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+@media (min-width: 600px) {
+    .top {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .top {
+        text-align: center;
+    }
+    .play {
+        padding-top: 70px;
+    }
+}
+
+.title03 {
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: "Barlow", sans-serif;
+}
+
+.title04 {
+    color: white;
+    font-size: 30px;
+    font-family: "Barlow", sans-serif;
+}
+
+.btn01 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin-top: 40px;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+    background: rgb(0, 36, 77);
+}
+
+.btn01:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+//pages
+
+.title11 {
+    font-size: 30px;
+    color: white;
+}
+
+.title12 {
+    font-size: 8px;
+    color: rgb(255, 210, 8);
+    padding-left: 10px;
+}
+
+.title13 {
+   
+    text-align: center;
+}
+
+.login {
+    background: rgb(0, 138, 252);
+}
+
+.btn-check-01 {
+    text-decoration: none;
+    color: white;
+}
+
+.list {
+    background: rgba(56, 56, 56, 0.445);
+
+    padding: 10px;
+}
+
+.sign {
+    background: rgb(122, 122, 122);
+    text-decoration: none;
+}
+
+.home {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+        "Open Sans", "Helvetica Neue", sans-serif;
+}
+.sign-home {
+    text-align: end;
+    padding-right: 140px;
+}
+.login-up {
+    padding: 10px;
+    background: rgb(0, 36, 77);
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 40px;
+}
+.login-up:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(5, 49, 99);
+    cursor: pointer;
+}
+
+.sign-up {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.sign-up:hover {
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+.bola {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+
+.back {
+    background: rgba(54, 54, 54, 0.596);
+    padding: 15px;
+}
+.media-init {
+    margin-top: 420px;
+    text-align: center;
+}
+.Type-filme {
+    display: block;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: rgb(255, 210, 8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Type-filme:hover {
+    color: rgb(255, 210, 8);
+    
+}
+.text-years {
+    margin-left: 30px;
+}
+
+.btn-play {
+    color: rgb(252, 252, 252);
+    background: rgb(0, 25, 94);
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.btn-play:hover {
+    
+    background: rgb(9, 34, 117);
+    cursor: pointer;
+    color: rgb(221, 221, 221);
+    transform: scale(1.5);
+    
+    
+}
+.lib-films {
+    
+    background: rgb(0, 0, 0);
+    background: linear-gradient(128deg, rgba(0, 0, 0, 1) 8%, rgba(0, 1, 43, 1) 100%);
+}
+
+.text-lib {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container-box {
+    padding-left: 20px;
+    height: 240px;
+    overflow: scroll;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.container-box-01 {
+    text-align: center;
+    height: 240px;
+    overflow: scroll;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+img {
+    width: 350px;
+    margin-right: 30px;
+    height: 196px;
+}
+.film-load-assist {
+    height: 4px;
+    width: 45%;
+    background: rgb(11, 115, 163);
+}
+.layout-menu {
+    background: rgb(10, 10, 10);
+    display: flex;
+}
+.layout-section {
+    width: 33%;
+}
+.img-profile {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.section-item {
+    display: block;
+}
+
+.play-btn {
+    width: 100%;
+    height: 196px;
+    text-align: center;
+    padding: 10%;
+    color: rgb(219, 219, 219);
+}
+
+::-webkit-scrollbar {
+    display: none;
+    width: 6px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: blue; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid; /* creates padding around scroll thumb */
+}
+.img-banners {
+    width: 100%;
+    height: 196px;
+}
+.item{
+ width: 150px;
+ height: 200px;
+ margin-left: 10px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 10px;
+}
+
+@media (min-width: 600px) {
+    .carrosel-mobile{
+        display: none;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    .lib-films {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .form-control{
+        width: 70%;
+    }
+    .home-banner{
+        background-image: url(img/banner1.jpg);
+        background-size: cover;
+        background-position: top;
+   
+    }
+    
+    .media-init{
+        margin-top: 350px;
+        text-align: start;
+        padding-left: 110px;
+    }
+
+}
+@media (max-width: 600px) {
+    .carousel-screm{
+        display: none;
+    }
+    .logo-mobile-perfil{
+        display: none;
+    }
+    .footer-window{
+        display: none;
+    }
+       
+}
+.owl-dots{
+   display: none;
+}
+.img-perfil{
+    width: 40px;
+    height: 40px;
+    border: solid 2px rgb(245, 245, 245);
+    border-radius: 20px;
+   
+    
+}
+.img-perfil:hover{
+    transform: scale(1.2);
+}
+
+.menu-media{
+    display: none;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    background-color: rgba(10, 10, 10, 0.863);
+}
+.text-menu{
+    color: aliceblue;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-secoes{
+    padding-left: 40px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-secoes:hover{
+    cursor: pointer;
+    background-color: rgba(58, 58, 58, 0.801);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ul-secoes{
+    padding: 0%;
+}
+.line-section{
+    margin: auto;
+    width: 80%;
+    height: 2px;
+    background-color: rgb(66, 66, 66);
+}
+.closer{
+    position: relative;
+    left: -60;
+    top: 20;
+    
+}
+.open-menu:hover{
+    color: aliceblue;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.footer-window{
+    background: black;
+    padding: 20px;
+    text-align: center;
+    color: rgb(172, 172, 172);
+}
